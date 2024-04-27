@@ -7,6 +7,8 @@ on:
 
 jobs:
   publish:
+    environment:
+      name: prod
     name: Notifications Service - Service Pipeline 
     runs-on: ubuntu-latest
     steps:

@@ -3,7 +3,7 @@
 ## Endpoints
 
 - `/` POST fsd
-- `/` GET
+- `/` GETwxc
 - `/` DELETE
 - `/{id}` GET
 - `/{id}` DELETE
