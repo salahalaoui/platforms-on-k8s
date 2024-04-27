@@ -1,4 +1,4 @@
-module github.com/salaboy/platforms-on-k8s/conference-application/c4p-service
+module github.com/alaouibs/platforms-on-k8s/conference-application/c4p-service
 
 go 1.21
 
