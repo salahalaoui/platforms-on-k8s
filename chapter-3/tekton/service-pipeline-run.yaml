@@ -1,0 +1,29 @@
+apiVersion: tekton.dev/v1
+kind: PipelineRun
+metadata:
+  name: service-pipeline-run-1
+  annotations:
+    kubernetes.io/ssh-auth: kubernetes.io/dockerconfigjson
+spec:
+  params:
+  - name: target-registry
+    value: docker.io/salaboy
+  - name: target-service
+    value: notifications-service
+  - name: target-version 
+    value: 1.0.0-from-pipeline-run
+  workspaces:
+    - name: sources
+      volumeClaimTemplate: 
+        spec:
+          accessModes:
+          - ReadWriteOnce
+          resources:
+            requests:
+              storage: 100Mi 
+    - name: docker-credentials
+      secret:  
+        secretName: docker-credentials
+  pipelineRef:
+    name: service-pipeline
+  
