@@ -21,6 +21,6 @@ jobs:
     - name: Build the stack
       run: docker-compose -f conference-application/notifications-service/tests/docker-compose.yaml up -d  
     - name: Install newman
-      run: npm install -g newman@5.0.0 && newman run conference-application/notifications-service/api/postman/notifications.postman.json --env-var "baseUrl=http://localhost:8080"
+      run: npm install -g newman@4.5.7 && newman run conference-application/notifications-service/api/postman/notifications.postman.json --env-var "baseUrl=http://localhost:8080"
     - name: Shutdown the stack
       run: docker-compose -f conference-application/notifications-service/tests/docker-compose.yaml down 
