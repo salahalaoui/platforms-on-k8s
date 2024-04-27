@@ -1,8 +1,8 @@
 module github.com/alaouibs/platforms-on-k8s/conference-application/c4p-service
 
-go 1.21
+go 1.18
 
-toolchain go1.21.0
+toolchain go1.18.0
 
 require (
 	github.com/deepmap/oapi-codegen v1.13.0
