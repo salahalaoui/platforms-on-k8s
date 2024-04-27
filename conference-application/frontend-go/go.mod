@@ -1,4 +1,4 @@
-module github.com/salaboy/platforms-on-k8s/conference-application/frontend-go
+module github.com/salahalaoui/platforms-on-k8s/conference-application/frontend-go
 
 go 1.19
 

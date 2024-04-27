@@ -1,4 +1,4 @@
-module github.com/salaboy/platforms-on-k8s/conference-application/notifications-service
+module github.com/salahalaoui/platforms-on-k8s/conference-application/notifications-service
 
 go 1.21
 

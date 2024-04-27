@@ -9,7 +9,7 @@ maintainers:
   - name: salaboy
     email: salaboy@gmail.com
     url: http://salaboy.com
-home: http://github.com/salaboy/platforms-on-k8s
+home: http://github.com/salahalaoui/platforms-on-k8s
 dependencies:
   - name: redis
     version: 17.11.3

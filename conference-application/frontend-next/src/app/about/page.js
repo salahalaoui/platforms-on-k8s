@@ -25,9 +25,9 @@ export default async function About() {
           
           <div>
             <h2>Repository</h2>
-            <p>You can find the links to the source code and tutorials by going to the main Github repository: <a href="https://github.com/salaboy/platforms-on-k8s">github.com/salaboy/platforms-on-k8s</a></p>
+            <p>You can find the links to the source code and tutorials by going to the main Github repository: <a href="https://github.com/salahalaoui/platforms-on-k8s">github.com/salahalaoui/platforms-on-k8s</a></p>
             <br/>
-            <Button main external link="https://github.com/salaboy/platforms-on-k8s">Go to the repository</Button>
+            <Button main external link="https://github.com/salahalaoui/platforms-on-k8s">Go to the repository</Button>
           </div>
         </div>
           
@@ -144,7 +144,7 @@ export default async function About() {
               <div className="col half positionThird">
                 <h5>Do you want to contribute to make this application better?</h5>
                 <h3>
-                 Go to the <a href="https://github.com/salaboy/platforms-on-k8s/issues">Platforms on K8s repository</a> and create an issue or drop me a message in Twitter <a href="https://twitter.com/salaboy">@Salaboy</a> 
+                 Go to the <a href="https://github.com/salahalaoui/platforms-on-k8s/issues">Platforms on K8s repository</a> and create an issue or drop me a message in Twitter <a href="https://twitter.com/salaboy">@Salaboy</a> 
                 </h3>
                 <br/>
                 <Button  external link="https://twitter.com/salaboy">Drop me a message</Button>

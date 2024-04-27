@@ -15,7 +15,7 @@ import (
 
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"
-	"github.com/salaboy/platforms-on-k8s/conference-application/frontend-go/api"
+	"github.com/salahalaoui/platforms-on-k8s/conference-application/frontend-go/api"
 
 	kafka "github.com/segmentio/kafka-go"
 )
@@ -23,7 +23,7 @@ import (
 var (
 	Version = getEnv("VERSION", "1.0.0")
 
-	Source                  = getEnv("SOURCE", "https://github.com/salaboy/platforms-on-k8s/tree/main/conference-application/frontend-go")
+	Source                  = getEnv("SOURCE", "https://github.com/salahalaoui/platforms-on-k8s/tree/main/conference-application/frontend-go")
 	PodName                 = getEnv("POD_NAME", "N/A")
 	PodNamespace            = getEnv("POD_NAMESPACE", "N/A")
 	PodNodeName             = getEnv("POD_NODENAME", "N/A")

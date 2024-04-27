@@ -12,7 +12,7 @@ import (
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
-	api "github.com/salaboy/platforms-on-k8s/conference-application/notifications-service/api"
+	api "github.com/salahalaoui/platforms-on-k8s/conference-application/notifications-service/api"
 	kafka "github.com/segmentio/kafka-go"
 )
 
@@ -56,7 +56,7 @@ func (s Notification) MarshalBinary() ([]byte, error) {
 
 var (
 	VERSION             = getEnv("VERSION", "1.0.0")
-	SOURCE              = getEnv("SOURCE", "https://github.com/salaboy/platforms-on-k8s/tree/main/conference-application/notifications-service")
+	SOURCE              = getEnv("SOURCE", "https://github.com/salahalaoui/platforms-on-k8s/tree/main/conference-application/notifications-service")
 	POD_NAME            = getEnv("POD_NAME", "N/A")
 	POD_NAMESPACE       = getEnv("POD_NAMESPACE", "N/A")
 	POD_NODENAME        = getEnv("POD_NODENAME", "N/A")

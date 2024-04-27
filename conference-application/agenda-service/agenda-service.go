@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	api "github.com/salaboy/platforms-on-k8s/conference-application/agenda-service/api"
+	api "github.com/salahalaoui/platforms-on-k8s/conference-application/agenda-service/api"
 
 	"github.com/go-chi/chi/middleware"
 	"github.com/go-chi/chi/v5"
@@ -21,7 +21,7 @@ import (
 var (
 	KEY                 = "AGENDAITEMS"
 	VERSION             = getEnv("VERSION", "1.0.0")
-	SOURCE              = getEnv("SOURCE", "https://github.com/salaboy/platforms-on-k8s/tree/main/conference-application/agenda-service")
+	SOURCE              = getEnv("SOURCE", "https://github.com/salahalaoui/platforms-on-k8s/tree/main/conference-application/agenda-service")
 	POD_NAME            = getEnv("POD_NAME", "N/A")
 	POD_NAMESPACE       = getEnv("POD_NAMESPACE", "N/A")
 	POD_NODENAME        = getEnv("POD_NODENAME", "N/A")

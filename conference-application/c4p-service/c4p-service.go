@@ -15,7 +15,7 @@ import (
 	"github.com/google/uuid"
 	_ "github.com/lib/pq"
 
-	"github.com/salaboy/platforms-on-k8s/conference-application/c4p-service/api"
+	"github.com/salahalaoui/platforms-on-k8s/conference-application/c4p-service/api"
 
 	kafka "github.com/segmentio/kafka-go"
 )
@@ -99,7 +99,7 @@ type Config struct {
 
 var (
 	Version            = getEnv("VERSION", "1.0.0")
-	Source             = getEnv("SOURCE", "https://github.com/salaboy/platforms-on-k8s/tree/main/conference-application/c4p-service")
+	Source             = getEnv("SOURCE", "https://github.com/salahalaoui/platforms-on-k8s/tree/main/conference-application/c4p-service")
 	PodName            = getEnv("POD_NAME", "N/A")
 	PodNamespace       = getEnv("POD_NAMESPACE", "N/A")
 	PodNodeName        = getEnv("POD_NODENAME", "N/A")

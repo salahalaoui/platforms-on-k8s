@@ -1,4 +1,4 @@
-module github.com/salaboy/platforms-on-k8s/conference-application/agenda-service
+module github.com/salahalaoui/platforms-on-k8s/conference-application/agenda-service
 
 go 1.21
 
