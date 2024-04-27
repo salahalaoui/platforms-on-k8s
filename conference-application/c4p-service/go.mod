@@ -1,8 +1,6 @@
 module github.com/alaouibs/platforms-on-k8s/conference-application/c4p-service
 
-go 1.18
-
-toolchain go1.18.0
+go 1.21
 
 require (
 	github.com/deepmap/oapi-codegen v1.13.0
@@ -15,7 +13,6 @@ require (
 	github.com/testcontainers/testcontainers-go v0.23.0
 	github.com/testcontainers/testcontainers-go/modules/compose v0.23.0
 )
-
 require (
 	dario.cat/mergo v1.0.0 // indirect
 	github.com/AdaLogics/go-fuzz-headers v0.0.0-20230106234847-43070de90fa1 // indirect
